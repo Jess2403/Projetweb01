@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <title>Projet préfo</title>
+        <title>Contact</title>
         <meta charset="utf-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
         <link rel="stylesheet" type="text/css" href="css/contact.css">
@@ -54,9 +54,9 @@
                 <input type="text" name="email" required><br>
                 <label>Confirmation de l'email:</label>
                 <input type="text" name="email_confirmation" required><br>
-                <legend>Votre message</legend>
+                <legend id="legend">Votre message</legend>
                 <textarea name="message" cols="60" rows="8" maxlength="1000" required></textarea><br>
-                <input type="submit" name="envoi" value="Envoyer">
+                <input type="submit" name="envoi" value="Envoyer" class="bouton">
             </fieldset>
         </form>
             <footer>

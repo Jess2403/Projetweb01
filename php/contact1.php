@@ -3,8 +3,8 @@
 if(isset($_POST['nom'])){
 
     // Mail serveur
-    ini_set('SMTP','relay.proximus.be');
-    ini_set('smtp_port',25);
+    ini_set('SMTP','imap.proximus.be');
+    ini_set('smtp_port',993);
     //ini_set("sendmail_from", "myemail@test.com")
 
     // email
