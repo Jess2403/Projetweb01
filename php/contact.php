@@ -43,7 +43,7 @@
     </section>
     <div>
         <h1>Contact</h1>
-        <form method="post" action="contact1.php">
+        <form method="post" action="?p=contact1">
             <fieldset>
                 <legend>Vos coordonnées</legend>
                 <label>Nom:</label>

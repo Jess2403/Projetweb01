@@ -42,37 +42,40 @@
         </ul>
     </header>
 </section>
-<div>
+<div class="div3">
     <h1 class="titre">Curriculum Vitae</h1>
-    <table>
+    <table class="table3">
         <tr>
             <td class="td1">Landas Jessica</td>
             <td class="td2">Belge</td>
-            <td rowspan="5" class="td">
-                <img src="img/moi.jpg" alt="moi" width="150" style="float: center;">
-            </td>
+            <!--<td rowspan="5" class="td">
+
+            </td>-->
         </tr>
         <tr>
             <td class="td1">9, rue Alexandre-Pierrard</td>
             <td class="td2">12/07/1984</td>
-            <td></td>
+            <!--<td></td>-->
         </tr>
         <tr>
             <td class="td1">1070 Anderlecht</td>
             <td class="td2">Célibataire</td>
-            <td></td>
+            <!--<td></td>-->
         </tr>
         <tr>
             <td class="td1">0478/57-78-56.</td>
             <td></td>
-            <td></td>
+            <!--<td>-->
+            <!--</td>-->
         </tr>
         <tr>
             <td class="td1">dragon-mauve@hotmail.com</td>
             <td></td>
-            <td></td>
+            <!--<td></td>-->
         </tr>
+        <img src="img/moi.jpg" id="img1"/>
     </table>
+
     <div class="div1">
     <h2>Objectif</h2>
         <p class="red">J’aimerais m’investir dans un nouveau défi professionnel en tant que web-developer</p>
@@ -83,7 +86,7 @@
         </tr>
         <tr>
             <td class="td3">2017 - 2018</td>
-            <td class="td4">Elite Intérim commis de salle Traiteur Léonard, Traiteur Betd class="td4"cious, Traiteur Les Frères De Becker, Traiteur Savoury, Serveuse à Martin’s Hôtel.</td>
+            <td class="td4">Elite Intérim commis de salle Traiteur Léonard, Traiteur Belicious, Traiteur Les Frères De Becker, Traiteur Savoury, Serveuse à Martin’s Hôtel.</td>
         </tr>
         <tr>
             <td class="td3">2017</td>

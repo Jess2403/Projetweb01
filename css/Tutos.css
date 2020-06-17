@@ -173,13 +173,15 @@ ul li a:hover {
     }
     .div2 {
         margin-top: 0;
-        /*padding-top: 0;*/
     }
-    iframe {
-        width: 50vw;
+    .video1 {
+        width: 40vw;
         height: auto;
     }
     h2 {
+        padding: 0;
+    }
+    .div2 {
         padding: 0;
     }
 }
@@ -187,8 +189,9 @@ div {
     margin-top:250px;
     background-color: rgb(208, 213, 219);
     text-align: center;
-    /*margin: 50px;*/
     padding: 50px;
+    margin-right: 25px;
+    margin-left: 25px;
 }
 h1 {
     font-family: 'Merriweather', serif;

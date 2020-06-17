@@ -25,6 +25,9 @@ else {
         case "contact":
             include "php/contact.php";
             break;
+        case "contact1":
+            include "php/contact1.php";
+            break;
     }
 }
 

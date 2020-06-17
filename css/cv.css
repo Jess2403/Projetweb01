@@ -99,16 +99,33 @@ ul li a:hover {
 		height: 280px;
 		align-items: hidden;
 	}
-	div {
-		padding: 0;
-		margin: 50px 0 0 0;
-		text-align: hidden;
-	}
 	h1 {
-		text-align: hidden;
-		position: relative;
-		margin: 150px 0;
+		font-size: 3vw;
+	}
+	body {
+		margin: 5%;
 		padding: 0;
+	}
+	h2 {
+		font-size: 2.5vw;
+	}
+	.div1 {
+		margin-top: 2vw;
+	}
+	.red {
+		font-size: 1.5vw;
+	}
+	.table1 {
+		float: left;
+		width: 50%;
+		margin-top: 50px;
+	}
+	.table2 {
+		width: 50%;
+		margin-top: 50px;
+	}
+	.green {
+		margin-top: 50%;
 	}
 }
 @media screen and (min-width: 320px) and (max-width: 899px) {
@@ -144,7 +161,7 @@ ul li a:hover {
 		background: rgba(0, 0, 0, .5);
 	}
 
-	div {
+	.div3 {
 		margin-top: 250px;
 	}
 
@@ -152,106 +169,110 @@ ul li a:hover {
 		font-size: 3vw;
 	}
 	body {
-		margin: 0;
+		margin: 5%;
 		padding: 0;
-	}
-
-	.logo02 {
-		margin-left: 22.5vw;
 	}
 	h2 {
-		padding: 0;
+		font-size: 2.5vw;
 	}
 	.div1 {
-		margin-top: 250px;
+		margin-top: 2vw;
 	}
-}
-table {
-	width: 100%;
+	.red {
+		font-size: 1.5vw;
+	}
+	.green {
+		margin-top: 20px;
+	}
 }
 h1 {
 	font-family: 'Merriweather', serif;
-	font-size: 5vw;
+	font-size: 6vw;
 	text-transform: uppercase;
 	color: blue;
 	background-color: cornflowerblue;
 	border: 3px solid darkblue;
 	border-radius: 60px 5px;
 	text-align: center;
-	padding: 0;
+	padding: 0.5% 0.5%;
+	margin: 40% 0.5% 5% 0.5%;
 	font-style: italic;
 	width: auto;
-	margin: 20%;
+}
+.table3 {
+	width: 50%;
+	height: auto;
+}
+.divimg {
+	width: 40%;
+	height: auto;
+}
+#img1 {
+	float: right;
+	width: 15vw;
+	height: auto;
 }
 .div1 {
-	text-align: center;
+	text-align: left;
 }
 .td1 {
-	font-size: 2em;
+	font-size: 4vw;
 	width: 70%;
 }
 .td2 {
-	font-size: 2em;
+	font-size: 4vw;
 	width: 30%;
 }
+.table3 {
+	margin-bottom: 0;
+}
 h2 {
-	/*font-Size: 6em;
-	color: blue;
-	background-color: cornflowerblue;
-	border: 3px solid darkblue;
-	border-radius: 60px 5px;
-	text-align: center;
-	margin: 100px 650px 20px 650px;
-	padding: 0;*/
 	background-color: #b9faf9;
 	color: #2c73e6;
 	font-family: "Shadows Into Light Two", cursive;
-	font-size: 3vw;
+	font-size: 5vw;
 	border: 2px solid #2c73e6;
 	border-radius: 50px 5px;
 	text-align: center;
 	padding: 1%;
 	font-style: italic;
-	width: 20%;
+	width: 30%;
 	height: auto;
-	position: relative;
+	margin: auto;
 }
 .red {
-	font-size: 2em;
+	font-size: 4vw;
 	color: red;
 	background-color: #e6a8ed;
 	border: 3px solid darkred;
 	border-radius: 60px 5px;
 	text-align: center;
-	margin: 0;
+	margin: 5% 0.5% 5% 0.5%;;
 	padding: 10px;
-	height: 30%;
+	width: auto;
+	height: auto;
 }
 .th2 {
-	font-size: 3em;
+	font-size: 4vw;
 	color: #0c002b;
 }
 .td3 {
-	font-size: 2em;
+	font-size: 3vw;
 	width: 10%;
 	height: 20%;
 }
 .td4 {
-	font-size: 2em;
+	font-size: 3vw;
 	width: 80%;
 	height: 20%;
 }
 .th3 {
-	font: 3em bold;
+	font: 4vw bold;
 }
 .table1 {
-	float: left;
-	width: 50%;
 	margin-top: 50px;
 }
 .table2 {
-	float: right;
-	width: 50%;
 	margin-top: 50px;
 }
 .td5 {
@@ -259,20 +280,17 @@ h2 {
 	color: forestgreen;
 }
 .green {
-	margin-top: 40%;
 	float: bottom;
 	border: 3px solid darkgreen;
 	color: #a15805;
 	background-color: #afedb1;
 	text-align: center;
-	margin-right: 350px;
-	margin-left: 350px;
 }
 h3 {
-	font: 3em bold;
+	font: 4vw bold;
 }
 #p {
-	font: 2em italic;
+	font: 3vw italic;
 }
 .footer {
 	text-align: center;
