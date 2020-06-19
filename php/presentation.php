@@ -50,10 +50,11 @@
 </div>
 <div class="swiper-container">
     <div class="swiper-wrapper">
-        <div class="swiper-slide" style="background-image:url(img/présentation1redim.jpg)"></div>
-        <div class="swiper-slide" style="background-image:url(img/presentation2redim.jpg)"></div>
-        <div class="swiper-slide" style="background-image:url(img/presentation3redim.jpg)"></div>
-        <div class="swiper-slide" style="background-image:url(img/presentation4redim.jpg)"></div>
+        <div class="swiper-slide" style="background-image:url(img/présentation1redim.jpg)/*; width: 80vw; height: 105vh*/"></div>
+        <div class="swiper-slide" style="background-image:url(img/presentation2redim.jpg)/*; width: 80vw; height: 105vh" <!--style="
+        @media screen and (min-width: 320px) and (max-width: 899px) width: 40vw; height: auto"*/-->></div>
+        <div class="swiper-slide" style="background-image:url(img/presentation3redim.jpg)/*; width:80vw; height: 105vh*/"></div>
+        <div class="swiper-slide" style="background-image:url(img/presentation4redim.jpg)/*; width: 80vw; height: 105vh*/"></div>
     </div>
 </div>
 <h2>Dans la vie j'aime aussi:</h2>
@@ -63,9 +64,9 @@
         <div class="swiper-slide" style="background-image:url(img/mondoudouredim.jpg)"></div>
         <div class="swiper-slide" style="background-image:url(img/misterselfieredim.jpg)"></div>
         <div class="swiper-slide" style="background-image:url(img/mameilleureredim.jpg)"></div>
-        <div class="swiper-slide" style="background-image:url(img/feteentreamisredim.jpg)"></div>
+        <div class="swiper-slide" style="background-image:url(img/feteentreamisredim.jpg)/*; width: 80vw; height: 105vh*/"></div>
         <div class="swiper-slide" style="background-image:url(img/repasentreamisredim.jpg)"></div>
-        <div class="swiper-slide" style="background-image:url(img/audartsredim.jpg)"></div>
+        <div class="swiper-slide" style="background-image:url(img/audartsredim.jpg)/*; width: 80vw; height: 105vh*/"></div>
         <div class="swiper-slide" style="background-image:url(img/aukaraokeredim.jpg)"></div>
     </div>
 </div>
@@ -73,8 +74,8 @@
 <div class="swiper-container">
     <div class="swiper-wrapper">
         <div class="swiper-slide" style="background-image:url(img/cuisinièreredim.jpg)"></div>
-        <div class="swiper-slide" style="background-image:url(img/saumonbellevueredim.jpg)"></div>
-        <div class="swiper-slide" style="background-image:url(img/noixdestjacquesentroisfaçonredim.jpg)"></div>
+        <div class="swiper-slide" style="background-image:url(img/saumonbellevueredim.jpg)/*; width: 80vw; height: 105vh*/"></div>
+        <div class="swiper-slide" style="background-image:url(img/noixdestjacquesentroisfaçonredim.jpg)/*; width: 80vw; height: 105vh*/"></div>
         <div class="swiper-slide" style="background-image:url(img/gibierredim.jpg)"></div>
         <div class="swiper-slide" style="background-image:url(img/brochetteredim.jpg)"></div>
     </div>

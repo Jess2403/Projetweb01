@@ -14,7 +14,6 @@
             })
         })
     </script>
-    <!--<link rel="javascript" href="javascript/video.js">-->
 </head>
 <body>
 <section>

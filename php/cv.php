@@ -48,25 +48,18 @@
         <tr>
             <td class="td1">Landas Jessica</td>
             <td class="td2">Belge</td>
-            <!--<td rowspan="5" class="td">
-
-            </td>-->
         </tr>
         <tr>
             <td class="td1">9, rue Alexandre-Pierrard</td>
             <td class="td2">12/07/1984</td>
-            <!--<td></td>-->
         </tr>
         <tr>
             <td class="td1">1070 Anderlecht</td>
             <td class="td2">Célibataire</td>
-            <!--<td></td>-->
         </tr>
         <tr>
             <td class="td1">0478/57-78-56.</td>
             <td></td>
-            <!--<td>-->
-            <!--</td>-->
         </tr>
         <tr>
             <td class="td1">dragon-mauve@hotmail.com</td>
@@ -223,7 +216,7 @@
     </table>
     <table class="table2">
         <tr>
-            <th colspan="2" class="th2">Langage Web:</th>
+            <td colspan="2" class="td5">Langage Web:</td>
         </tr>
         <tr>
             <td class="td3">HTML</td>

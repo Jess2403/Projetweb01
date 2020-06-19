@@ -5,14 +5,12 @@ body {
     font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
     font-size: 14px;
     color: #000;
-    /*margin: 20px 300px;*/
     padding: 50px 250px;
 }
 section {
     position: relative;
     width: 100%;
     height: 10vh;
-    /*background: url()*/
     background-position: center center;
 }
 .logojess {
@@ -76,7 +74,6 @@ ul li a:hover {
         padding: 0 0;
         background: rgba(255, 255, 255, .5);
     }
-
     header ul {
         width: 100%;
         top: -4px;
@@ -114,26 +111,21 @@ ul li a:hover {
     .logojess {
         margin: 10px 10px;
     }
-
     .toggle {
         display: block;
     }
-
     header {
         padding: 0 0;
         background: rgba(255, 255, 255, .5);
     }
-
     header ul {
         width: 100%;
         top: -4px;
         display: none;
     }
-
     header ul.active {
         display: block;
     }
-
     header ul li a {
         margin: 0;
         display: block;
@@ -141,7 +133,6 @@ ul li a:hover {
         color: #ffff;
         background: rgba(0, 0, 0, .5);
     }
-
     .titre {
         margin-top: 250px;
     }
@@ -164,7 +155,6 @@ ul li a:hover {
         margin-top: 250px;
     }
 }
-
 div {
     background-color: rgb(208, 213, 219);
     text-align: center;
@@ -185,11 +175,12 @@ h1 {
 }
 .liste2 {
     text-align: left;
+    font-size: 2vw;
 }
 h2 {
     color: #2c73e6;
     font-family: "Shadows Into Light Two", cursive;
-    font-size: 1.5em;
+    font-size: 3vw;
     border: 2px solid #2c73e6;
     border-radius: 50px 5px;
     text-align: center;
@@ -197,7 +188,7 @@ h2 {
     font-style: italic;
 }
 p {
-    font-size: 1.2em;
+    font-size: 2vw;
     color: black;
 }
 .logo02 {

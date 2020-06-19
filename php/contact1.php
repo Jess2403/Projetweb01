@@ -2,12 +2,9 @@
 
 if(isset($_POST['nom'])){
 
-    // Mail serveur
-    ini_set('SMTP','imap.proximus.be');
-    ini_set('smtp_port',993);
-    //ini_set("sendmail_from", "myemail@test.com")
+    ini_set('SMTP','smtp.phpnet.org');
+    ini_set('smtp_port',587);
 
-    // email
     $for = "web2020.jessica@gmail.com";
 
     $nom = strip_tags(trim($_POST['nom']));
@@ -28,7 +25,7 @@ if(isset($_POST['nom'])){
         <!DOCTYPE html>
         <html>
         <head>
-            <title>Projet préfo</title>
+            <title>Réponse de l'envoie du mail</title>
             <meta charset="utf-8" />
             <link rel="stylesheet" type="text/css" href="css/contact.css">
         </head>

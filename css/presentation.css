@@ -5,14 +5,12 @@ body {
     font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
     font-size: 14px;
     color:#000;
-    /*margin: 20px 300px;*/
     padding: 50px 250px;
 }
 section {
     position: relative;
     width: 100%;
     height: 10vh;
-    /*background: url()*/
     background-position: center center;
 }
 .logojess {
@@ -76,7 +74,6 @@ ul li a:hover {
         padding: 0 0;
         background: rgba(255, 255, 255, .5);
     }
-
     header ul {
         width: 100%;
         top: -4px;
@@ -101,26 +98,21 @@ ul li a:hover {
     .logojess {
         margin: 10px 10px;
     }
-
     .toggle {
         display: block;
     }
-
     header {
         padding: 0 0;
         background: rgba(255, 255, 255, .5);
     }
-
     header ul {
         width: 100%;
         top: -4px;
         display: none;
     }
-
     header ul.active {
         display: block;
     }
-
     header ul li a {
         margin: 0;
         display: block;
@@ -128,11 +120,9 @@ ul li a:hover {
         color: #ffff;
         background: rgba(0, 0, 0, .5);
     }
-
     .titre {
         margin-top: 250px;
     }
-
     h1 {
         font-size: 3vw;
     }
@@ -143,22 +133,31 @@ ul li a:hover {
         margin: 0;
         padding: 0;
     }
-
     .img {
-        margin-left: 22.5vw;
+        display: block;
+        width: 60vw;
+        margin-left: auto;
+        margin-right: auto;
     }
+    /*.swiper-slide {
+        width: 40vw;
+        height: 40vh;
+    }*/
 }
 .swiper-container {
-    width: 80%;
+    width: 100%;
     padding-top: 5%;
     padding-bottom: 5%;
 }
 .swiper-slide {
     background-position: center;
     background-size: cover;
+    /*width: 40vw;
+    height: 40vh;*/
+    /*width: 40vw;
+    height: 110vh;*/
     width: 400px;
     height: 400px;
-
 }
 h1 {
     color:#b205fc;
@@ -166,8 +165,6 @@ h1 {
     background-color: rgb(173, 194, 224);
     font-size: 5vw;
     margin: 20%;
-    /*padding: 1% 0;*/
-
 }
 h2{
     font-size: 3vw;
@@ -188,9 +185,11 @@ h3 {
     padding: 1%;
 }
 .img {
-
+    display: block;
     width: 50vw;
     height: auto;
+    margin-right: auto;
+    margin-left: auto;
 }
 .footer {
     text-align: center;

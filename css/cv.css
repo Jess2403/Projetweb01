@@ -74,7 +74,6 @@ ul li a:hover {
 		padding: 0 0;
 		background: rgba(255, 255, 255, .5);
 	}
-
 	header ul {
 		width: 100%;
 		top: -4px;
@@ -111,43 +110,26 @@ ul li a:hover {
 	.red {
 		font-size: 1.5vw;
 	}
-	.table1 {
-		float: left;
-		width: 50%;
-		margin-top: 50px;
-	}
-	.table2 {
-		width: 50%;
-		margin-top: 50px;
-	}
-	.green {
-		margin-top: 50%;
-	}
 }
 @media screen and (min-width: 320px) and (max-width: 899px) {
 	.logojess {
 		margin: 10px 10px;
 	}
-
 	.toggle {
 		display: block;
 	}
-
 	header {
 		padding: 0 0;
 		background: rgba(255, 255, 255, .5);
 	}
-
 	header ul {
 		width: 100%;
 		top: -4px;
 		display: none;
 	}
-
 	header ul.active {
 		display: block;
 	}
-
 	header ul li a {
 		margin: 0;
 		display: block;
@@ -156,11 +138,9 @@ ul li a:hover {
 		color: black;
 		background: rgba(0, 0, 0, .5);
 	}
-
 	.div3 {
 		margin-top: 250px;
 	}
-
 	h1 {
 		font-size: 3vw;
 	}
@@ -272,7 +252,7 @@ h2 {
 	margin-top: 50px;
 }
 .td5 {
-	font-size: 2.5em;
+	font-size: 4vw;
 	color: forestgreen;
 }
 .green {
@@ -281,6 +261,7 @@ h2 {
 	color: #a15805;
 	background-color: #afedb1;
 	text-align: center;
+	margin-top: 3vw;
 }
 h3 {
 	font: 4vw bold;

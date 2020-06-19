@@ -5,14 +5,12 @@ body {
     font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
     font-size: 14px;
     color: #000;
-    /*margin: 20px 300px;*/
     padding: 50px 250px;
 }
 section {
     position: relative;
     width: 100%;
     height: 10vh;
-    /*background: url()*/
     background-position: center center;
 }
 .logojess {
@@ -76,7 +74,6 @@ ul li a:hover {
         padding: 0 0;
         background: rgba(255, 255, 255, .5);
     }
-
     header ul {
         width: 100%;
         top: -4px;
@@ -128,26 +125,21 @@ ul li a:hover {
     .logojess {
         margin: 10px 10px;
     }
-
     .toggle {
         display: block;
     }
-
     header {
         padding: 0 0;
         background: rgba(255, 255, 255, .5);
     }
-
     header ul {
         width: 100%;
         top: -4px;
         display: none;
     }
-
     header ul.active {
         display: block;
     }
-
     header ul li a {
         margin: 0;
         display: block;
@@ -155,11 +147,9 @@ ul li a:hover {
         color: #ffff;
         background: rgba(0, 0, 0, .5);
     }
-
     .titre {
         margin-top: 250px;
     }
-
     h1 {
         font-size: 3vw;
     }
@@ -167,7 +157,6 @@ ul li a:hover {
         margin: 0;
         padding: 0;
     }
-
     .logo02 {
         margin-left: 22.5vw;
     }
@@ -208,7 +197,7 @@ h1 {
 h3 {
     color: green;
 }
- .liste2 {
+.liste2 {
    text-align: left;
 }
 h2 {
