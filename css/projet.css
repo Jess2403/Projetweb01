@@ -5,7 +5,7 @@ body {
     font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
     font-size: 14px;
     color: #000;
-    padding: 50px 250px;
+    padding: 50px 90px;
 }
 section {
     position: relative;
@@ -63,7 +63,8 @@ ul li a:hover {
     cursor: pointer;
     font-weight: bold;
 }
-@media screen and (max-width: 1450px) and (min-width: 900px) {
+/*@media screen and (max-width: 1450px) and (min-width: 900px)*/
+@media screen and (max-width: 990px) {
     .logojess{
         margin: 10px 10px;
     }
@@ -89,25 +90,16 @@ ul li a:hover {
         color: #ffff;
         background: rgba(0,0,0,.5);
     }
-    .div1{
-        padding: 0;
-        margin: 250px 0 0 0;
-        text-align: hidden;
+    .div1 {
+        margin-top: 40vh;
+        padding-top: 3vh;
     }
-    .div1 .logo02 h1 h2{
-        text-align: hidden;
-        align-items: hidden;
-        margin: 0;
-        padding: 0;
-    }
-    .logo02 {
-        width: 280px;
-        height: 200px;
-        align-items: hidden;
-        margin-top: 50px;
+    h1 {
+        margin-left:
     }
 }
-@media screen and (min-width: 320px) and (max-width: 899px) {
+/*@media screen and (min-width: 320px) and (max-width: 899px)*/
+@media screen and (min-width: 320px) and (max-width: 600px) {
     .logojess {
         margin: 10px 10px;
     }
@@ -144,10 +136,6 @@ ul li a:hover {
         margin: 0;
         padding: 0;
     }
-
-    .logo02 {
-        margin-left: 22.5vw;
-    }
     h2 {
         padding: 0;
     }
@@ -175,12 +163,12 @@ h1 {
 }
 .liste2 {
     text-align: left;
-    font-size: 2vw;
+    font-size: 3.5vw;
 }
 h2 {
     color: #2c73e6;
     font-family: "Shadows Into Light Two", cursive;
-    font-size: 3vw;
+    font-size: 4vw;
     border: 2px solid #2c73e6;
     border-radius: 50px 5px;
     text-align: center;
@@ -188,13 +176,15 @@ h2 {
     font-style: italic;
 }
 p {
-    font-size: 2vw;
+    font-size: 3.5vw;
     color: black;
 }
 .logo02 {
-    margin:0;
-    width: 50vw;
+    display: block;
+    width: 100%;
     height: auto;
+    margin-right: auto;
+    margin-left: auto;
 }
 .footer {
     text-align: center;

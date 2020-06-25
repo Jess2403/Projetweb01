@@ -62,7 +62,7 @@
         <span></span>
         <span></span>
         <span></span>
-        <a href="?p=cv" class="neon">CV</a>
+        <a href="?p=cv1" class="neon">CV</a>
     </a>
     <a href="#">
         <span></span>

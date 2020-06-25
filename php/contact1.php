@@ -42,3 +42,15 @@ if(isset($_POST['nom'])){
 }
 
 ?>
+<?php
+$req = $bdd->prepare('INSERT INTO portfolioweb2020(nom, prenom, email, email_confirm, message) VALUES(:nom, :prenom, :email,
+:email_confirm, :message)');
+$req->execute(array(
+'nom' => $nom,
+'prenom' => $prenom,
+'email' => $email,
+'email_confirm' => $email,
+'message' => $message
+));
+echo 'Votre demande a bien été transférée';
+?>

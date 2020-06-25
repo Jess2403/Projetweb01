@@ -5,7 +5,7 @@ body {
     font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
     font-size: 14px;
     color:#000;
-    padding: 50px 250px;
+    padding: 50px 120px;
 }
 section {
     position: relative;
@@ -63,7 +63,8 @@ ul li a:hover {
     cursor: pointer;
     font-weight: bold;
 }
-@media screen and (max-width: 1450px) and (min-width: 900px) {
+/*@media screen and (max-width: 1450px) and (min-width: 900px)*/
+@media screen and (max-width: 990px) {
     .logojess{
         margin: 10px 10px;
     }
@@ -94,7 +95,8 @@ ul li a:hover {
         margin-top: 250px;
     }
 }
-@media screen and (min-width: 320px) and (max-width: 899px) {
+/*@media screen and (min-width: 320px) and (max-width: 899px)*/
+@media screen and (min-width: 320px) and (max-width: 600px) {
     .logojess {
         margin: 10px 10px;
     }
@@ -126,9 +128,6 @@ ul li a:hover {
     h1 {
         font-size: 3vw;
     }
-    /*h2 {
-        width: auto;
-    }*/
     body {
         margin: 0;
         padding: 0;
@@ -139,10 +138,6 @@ ul li a:hover {
         margin-left: auto;
         margin-right: auto;
     }
-    /*.swiper-slide {
-        width: 40vw;
-        height: 40vh;
-    }*/
 }
 .swiper-container {
     width: 100%;

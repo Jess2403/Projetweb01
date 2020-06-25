@@ -17,8 +17,8 @@ else {
         case "liens":
             include "php/liens.php";
             break;
-        case "cv":
-            include "php/cv.php";
+        case "cv1":
+            include "php/cv1.php";
             break;
         case "contact":
             include "php/contact.php";

@@ -36,7 +36,7 @@
                 <a href="?p=liens" class="nav-links">LIENS</a>
             </li>
             <li>
-                <a href="?p=cv" class="nav-links">CV</a>
+                <a href="?p=cv1" class="nav-links">CV</a>
             </li>
             <li>
                 <a href="?p=contact" class="nav-links">CONTACT</a>

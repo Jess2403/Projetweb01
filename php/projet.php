@@ -34,7 +34,7 @@
                 <a href="?p=liens" class="nav-links">LIENS</a>
             </li>
             <li>
-                <a href="?p=cv" class="nav-links">CV</a>
+                <a href="?p=cv1" class="nav-links">CV</a>
             </li>
             <li>
                 <a href="?p=contact" class="nav-links">CONTACT</a>
@@ -43,7 +43,7 @@
     </header>
 </section>
 <div class="div1">
-    <img src="img/fondlogo.png" class="logo02"/>
+    <img class="logo02" src="img/fondlogo.png"/>
     <h1>Voici quelques-un de mes projets en cours!</h1>
     <p>Vous trouverez ci-dessous quelques liens vers mes autres projets en cours pour l'instant il y en a peu mais je compte bien y rajouter quelques liens d'ici la fin de la formation</p>
     <h2>Mon début de projet personnel de site de rencontre</h2>

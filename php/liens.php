@@ -34,7 +34,7 @@
                 <a href="?p=projet" class="nav-links">PROJET</a>
             </li>
             <li>
-                <a href="?p=cv" class="nav-links">CV</a>
+                <a href="?p=cv1" class="nav-links">CV</a>
             </li>
             <li>
                 <a href="?p=contact" class="nav-links">CONTACT</a>
@@ -82,7 +82,7 @@
 <footer>
     <p class="liens" >
         <a href="?p=projet">Précédant</a>/
-        <a href="?p=cv">Suivant</a></p><br>
+        <a href="?p=cv1">Suivant</a></p><br>
     <br>
     <hr>
     <p class="footer">Copyright &copy; CF2M 2020</p>
